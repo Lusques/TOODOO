@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+
+    transition: inherit;
+}
+
+header{
+    /* Questão 2 */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* Questão 2 */
+    
+    margin: 20px auto;
+    width: calc(100% - 75px);
+    min-width: 350px;
+    text-align: center;
+    line-height: 1.25em;
+}

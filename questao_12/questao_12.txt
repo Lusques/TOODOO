@@ -1,0 +1,17 @@
+QUESTÃO 12) Analisando a estrutura CSS a seguir, qual cor prevalecerá no elemento
+HTML?
+li.list-item {
+color: red;
+}
+.list-item {
+color: blue
+}
+#list .list-item {
+color: green
+}
+ul li {
+color: black;
+}
+
+
+R: c) green, pois o do elemento pai ID tem prioridade.

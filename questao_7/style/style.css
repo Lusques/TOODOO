@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+
+    transition: inherit;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+ul{
+    margin: auto;
+}
+
+li{
+    margin-top: 10px;
+}
+a{
+    color: #0d076d;
+}
+a:hover{
+    color: #ea005a;
+    text-decoration: underline;
+}
